@@ -1,13 +1,19 @@
 import React, { Component } from "react";
 
 class Product extends Component {
+  constructor(props) {
+    super(props);
+    // Don't call this.setState() here!
+    // this.state = { counter: 0 };
+    // this.handleClick = this.handleClick.bind(this);
+  }
   render() {
     return (
       <div className="container">
         <div className="card bg-light" style={{ width: "300px" }}>
           <img
             className="card-img-top"
-            src="./image/girl.jpg"
+            src="/image/girl.jpg"
             alt="Card image"
             style={{ maxWidth: "100%", height: "250px" }}
           />
