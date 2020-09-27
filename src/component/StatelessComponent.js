@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+//  This is statefullComponent, stateless component use function
 class StatelessComponent extends Component {
   render() {
     return (
