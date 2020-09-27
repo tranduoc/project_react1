@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Login extends Component {
+class StatelessComponent extends Component {
   render() {
     return (
       <div className="container">
@@ -44,4 +44,4 @@ class Login extends Component {
   }
 }
 
-export default Login;
+export default StatelessComponent;

@@ -1,10 +1,14 @@
 import React from "react";
 
 import "./App.css";
-import Login from "./Login";
+import StatelessComponent from "./component/StatelessComponent";
 
 function App() {
-  return <Login />;
+  return (
+    <div>
+      <StatelessComponent />
+    </div>
+  );
 }
 
 export default App;
